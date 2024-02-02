@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1
+{
+    font:bold ;
+    color: whitesmoke;
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(top to bottom, rgb(3, 3, 105),rgb(139, 131, 131));
+    background-image:url('web_m.jpg') ;
+    background-position: center;
+    background-size: cover;
+    height: 190vh;
+}
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding: 0.5%;
+}
+.icon
+{
+    width: 50px;
+    height: 70px;
+    float: left;  
+}
+.menu
+{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul
+{
+    margin-left: 875px;
+    margin-top: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(232, 246, 248);
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+    transition: 0.4s ease-in-out;  
+    font-weight: bold; 
+}
+.home
+{
+    width: 100px;
+    height: 40px; 
+    transition: width 1s;    
+}
+.home:hover
+{
+    width: 200px;
+}
+.Login
+{ 
+    width: 100px;
+    height: 40px;
+    transition: width 1s;    
+}
+.Login:hover
+{   
+    width: 200px;
+
+}
+.SignUp
+{
+    width: 100px;
+    height: 40px;
+    transition: width 1s;    
+}
+.SignUp:hover
+{
+    width: 200px;
+}
+.Careers
+{
+    width: 100px;
+    height: 40px;
+    transition:width 1s;   
+}
+.Careers:hover
+{
+    width: 200px;
+}
+.AboutUs
+{
+    width: 100px;
+    height: 40px;  
+    transition:width 1s;    
+}
+.AboutUs:hover
+{
+    width: 200px;
+}
+.Welcome
+{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+}
+h3
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(173, 224, 240);
+}
+.whatwedo
+{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 100%;
+    left: 20%;  
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    background-color: white;
+    opacity: .5;
+    border-radius: 50px;
+    transition: width 1s;    
+}
+
+
+h2{
+    color: rgb(2, 0, 8);
+}
+.fixed
+{
+    position: fixed;
+}
+
+.whatwedoright
+{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 135%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    background-color: white;
+    opacity: .5;
+    border-radius: 50px;
+    
+}
+.whatwedocenter
+{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 170%;
+    left: 80%;  
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    background-color: white;
+    opacity: .5;
+    border-radius: 50px;
+    
+}
